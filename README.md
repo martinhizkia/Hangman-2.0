@@ -46,7 +46,7 @@ Tampilan ini adalah tampilan ketika plyer menang dalam permainan.
 
 ### Score Board / Papan Skor
 ![skor](/image/scoreboard.JPG)
-Pada opsi menu ini, terdapat nama-nama pemain beserta dengan skor yang didapat melalui permainan sebelumnya. Skor disimpan dalam file database.txt sehingga ketika program ditutup, data skor pemain tidak akan hilang dan akan dimuat di sesi program selanjutnya. Penyimpanan data menggunakan linked list yang berisi nama, skor, dan address dari node selanjutnya.
+Pada opsi menu ini, terdapat nama-nama pemain beserta dengan skor yang didapat melalui permainan sebelumnya. Skor disimpan dalam file database.txt sehingga ketika program ditutup, data skor pemain tidak akan hilang dan akan dimuat di sesi program selanjutnya. Penyimpanan data menggunakan linked list yang berisi nama, skor, dan address dari node selanjutnya.<br>
 ![data](/image/database.JPG)
 Gambar diatas merupakan tampilan data pemain ketika disimpan dalam file database.txt
 
