@@ -8,7 +8,7 @@ Nama          : <br> Martin Hizkia Parasi (1806148750) <br>
 
 
 ## PENJELASAN PROYEK
-Game ini dimainkan dengan cara menebak huruf dari kata yang sudah di-random dari file listkata.txt. Game ini terdiri dari 2 mode, yaitu ; mode single player dan multiplayer.
+Game ini dimainkan dengan cara menebak huruf dari kata yang sudah di-random dari file listkata.txt. Nama dan skor pemain akan disimpan dalam file database.txt. Penyimpanan dan pemuatan data menggunakan linked list. Linked list digunakan untuk menyimpan nama beserta skor dari para pemain. Dikarenakan data pemain disimpan dalam file eksternal, maka ketika program ditutup , data pemain tidak akan hilang dan akan dimuat pada sesi permainan selanjutnya. Game ini terdiri dari 2 mode, yaitu ; mode single player dan multiplayer.
 
 ### SINGLEPLAYER :
 Jika pemain menebak karakter dari kata yang ingin ditebak dengan benar, maka nyawa dan hangmannya akan tetap dan tidak berkurang. Kata yang ditebak berasal dari file listkata.txt yang diambil secara acak.
@@ -45,7 +45,7 @@ Tampilan ini adalah tampilan ketika plyer menang dalam permainan.
 
 ### Score Board / Papan Skor
 ![skor](/image/scoreboard.JPG)
-Pada opsi menu ini, terdapat nama-nama pemain beserta dengan skor yang didapat melalui permainan sebelumnya. Skor disimpan dalam file database.txt sehingga ketika program ditutup, data skor pemain tidak akan hilang dan akan dimuat di sesi program selanjutnya.
+Pada opsi menu ini, terdapat nama-nama pemain beserta dengan skor yang didapat melalui permainan sebelumnya. Skor disimpan dalam file database.txt sehingga ketika program ditutup, data skor pemain tidak akan hilang dan akan dimuat di sesi program selanjutnya. Penyimpanan data menggunakan linked list yang berisi nama, skor, dan address dari node selanjutnya.
 
 ### Menu Bantuan
 ![help](/image/help.JPG)
