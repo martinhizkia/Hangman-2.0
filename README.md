@@ -9,6 +9,7 @@ Nama          : <br> Martin Hizkia Parasi (1806148750) <br>
 
 ## Deskripsi Proyek : 
 Game ini dimainkan dengan cara menebak huruf dari kata yang sudah di-random dari file listkata.txt. Nama dan skor pemain akan disimpan dalam file database.txt. Penyimpanan dan pemuatan data menggunakan linked list. Linked list digunakan untuk menyimpan nama beserta skor dari para pemain. Dikarenakan data pemain disimpan dalam file eksternal, maka ketika program ditutup , data pemain tidak akan hilang dan akan dimuat pada sesi permainan selanjutnya. Game ini terdiri dari 2 mode, yaitu ; mode single player dan multiplayer.
+Program utama dijalankan menggunakan file testergrap.c
 
 ### Singleplayer :
 Pemain akan memasukkan nama terlebih dahulu sebagai indentifikasi pemain dan untuk menyimpan skor permainan yang akan dimainkan.
